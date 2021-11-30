@@ -1,10 +1,10 @@
 ---
 repository:
-  name: terraform-module-template
-  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_FIXME)
-  homepage: https://registry.terraform.io/modules/dhoppeIT/FIXME/tfe/latest
-  topics: terraform, tfe_FIXME
-  private: true
+  name: terraform-tfe-oauth_client
+  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_oauth_client)
+  homepage: https://registry.terraform.io/modules/dhoppeIT/oauth_client/tfe/latest
+  topics: terraform, tfe_oauth_client
+  private: false
   has_issues: true
   has_projects: false
   has_wiki: false
