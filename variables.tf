@@ -1,18 +1,15 @@
 variable "organization" {
   type        = string
-  default     = null
   description = "Name of the organization"
 }
 
 variable "api_url" {
   type        = string
-  default     = null
   description = "The base URL of your VCS provider's API"
 }
 
 variable "http_url" {
   type        = string
-  default     = null
   description = "The homepage of your VCS provider"
 }
 
@@ -30,6 +27,5 @@ variable "private_key" {
 
 variable "service_provider" {
   type        = string
-  default     = null
   description = "The VCS provider being connected with"
 }
