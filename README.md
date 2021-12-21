@@ -51,12 +51,12 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_api_url"></a> [api\_url](#input\_api\_url) | The base URL of your VCS provider's API | `string` | `null` | no |
-| <a name="input_http_url"></a> [http\_url](#input\_http\_url) | The homepage of your VCS provider | `string` | `null` | no |
+| <a name="input_api_url"></a> [api\_url](#input\_api\_url) | The base URL of your VCS provider's API | `string` | n/a | yes |
+| <a name="input_http_url"></a> [http\_url](#input\_http\_url) | The homepage of your VCS provider | `string` | n/a | yes |
 | <a name="input_oauth_token"></a> [oauth\_token](#input\_oauth\_token) | The token string you were given by your VCS provider | `string` | `null` | no |
-| <a name="input_organization"></a> [organization](#input\_organization) | Name of the organization | `string` | `null` | no |
+| <a name="input_organization"></a> [organization](#input\_organization) | Name of the organization | `string` | n/a | yes |
 | <a name="input_private_key"></a> [private\_key](#input\_private\_key) | The text of the private key associated with your Azure DevOps Server account | `string` | `null` | no |
-| <a name="input_service_provider"></a> [service\_provider](#input\_service\_provider) | The VCS provider being connected with | `string` | `null` | no |
+| <a name="input_service_provider"></a> [service\_provider](#input\_service\_provider) | The VCS provider being connected with | `string` | n/a | yes |
 
 ## Outputs
 
