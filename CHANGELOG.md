@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/dhoppeIT/terraform-tfe-oauth_client/compare/v0.1.0...v0.2.0) (2021-12-22)
+
+
+### Features
+
+* Add support for BitBucket Server and Azure DevOps Server ([#6](https://www.github.com/dhoppeIT/terraform-tfe-oauth_client/issues/6)) ([38eac1d](https://www.github.com/dhoppeIT/terraform-tfe-oauth_client/commit/38eac1dcbcf310797c3b1fd31467ce61aa55f1e6))
+
 ## 0.1.0 (2021-11-30)
 
 
