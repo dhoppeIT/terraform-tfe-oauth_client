@@ -12,7 +12,7 @@ Terraform module to manage the Terraform Cloud/Enterprise resource
 Copy and paste into your Terraform configuration, insert the variables and run ```terraform init```:
 
 ```hcl
-module "tfe-oauth_client" {
+module "tfe_oauth_client" {
   source = "dhoppeIT/oauth_client/tfe"
 
   organization     = "dhoppeIT"
