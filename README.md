@@ -35,7 +35,7 @@ module "tfe-oauth_client" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | >= 0.27.0, < 1.0.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.27.1 |
 
 ## Modules
 
