@@ -1,7 +1,8 @@
 # terraform-tfe-oauth_client
 
-Terraform module to manage the Terraform Cloud/Enterprise resource
-(tfe_oauth_client).
+Terraform module to manage the following Terraform Cloud/Enterprise resource:
+
+* tfe_oauth_client
 
 ## Graph
 
@@ -12,10 +13,19 @@ Terraform module to manage the Terraform Cloud/Enterprise resource
 Copy and paste into your Terraform configuration, insert the variables and run ```terraform init```:
 
 ```hcl
-module "tfe_oauth_client" {
-  source = "dhoppeIT/oauth_client/tfe"
+module "tfe_organization" {
+  source  = "dhoppeIT/organization/tfe"
+  version = "~> 0.1"
 
-  organization     = "dhoppeIT"
+  name  = "dhoppeIT"
+  email = "terraform@dhoppe.it"
+}
+
+module "tfe_oauth_client" {
+  source  = "dhoppeIT/oauth_client/tfe"
+  version = "~> 0.2"
+
+  organization     = module.tfe_organization.name
   api_url          = "https://api.github.com"
   http_url         = "https://github.com"
   oauth_token      = "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"
