@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/dhoppeIT/terraform-tfe-oauth_client/compare/v0.2.1...v0.3.0) (2022-02-02)
+
+
+### Features
+
+* Add ID of the OAuth client as output ([#22](https://github.com/dhoppeIT/terraform-tfe-oauth_client/issues/22)) ([3575ada](https://github.com/dhoppeIT/terraform-tfe-oauth_client/commit/3575adaad813a3cfb3269dff144994cc293538aa))
+
 ### [0.2.1](https://github.com/dhoppeIT/terraform-tfe-oauth_client/compare/v0.2.0...v0.2.1) (2022-01-31)
 
 
