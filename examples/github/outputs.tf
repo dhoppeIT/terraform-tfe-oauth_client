@@ -1,5 +1,5 @@
 output "oauth_client_id" {
-  value       = try(module.tfe_oauth_client.id, null)
+  value       = module.tfe_oauth_client.id
   description = "The ID of the OAuth client"
 }
 
