@@ -45,7 +45,7 @@ module "tfe_oauth_client" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.30.2 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.37.0 |
 
 ## Modules
 
@@ -77,7 +77,6 @@ No modules.
 |------|-------------|
 | <a name="output_id"></a> [id](#output\_id) | The ID of the OAuth client |
 | <a name="output_oauth_token_id"></a> [oauth\_token\_id](#output\_oauth\_token\_id) | The ID of the OAuth token associated with the OAuth client |
-
 <!-- END_TF_DOCS -->
 
 ## Authors

@@ -55,7 +55,6 @@ No resources.
 |------|-------------|
 | <a name="output_oauth_client_id"></a> [oauth\_client\_id](#output\_oauth\_client\_id) | The ID of the OAuth client |
 | <a name="output_oauth_client_oauth_token_id"></a> [oauth\_client\_oauth\_token\_id](#output\_oauth\_client\_oauth\_token\_id) | The ID of the OAuth token associated with the OAuth client |
-
 <!-- END_TF_DOCS -->
 
 ## Authors
